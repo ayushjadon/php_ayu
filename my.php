@@ -16,7 +16,7 @@
 </html>
 <?php
 
-$con = mysqli_connect("localhost","root","navyforce671029","myfirst");
+$con = mysqli_connect("remotemysql.com","4lOcsZwv9W","mbwxG3vBOo","4lOcsZwv9W");
 
 if(!$con) {
 	echo mysql_connect_error();
